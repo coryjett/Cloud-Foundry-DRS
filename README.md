@@ -1,6 +1,8 @@
 # Cloud-Foundry-DRS
 
+Current config:
 
+```
 resource_pools:
 - cloud_properties:
     cpu: 2
@@ -14,10 +16,12 @@ resource_pools:
   stemcell:
     name: bosh-vsphere-esxi-ubuntu-trusty-go_agent
     version: latest
+```
     
     
+Reference config:
 
-
+```
 resource_pools:
 - name: hadoop-datanodes
   cloud_properties:
@@ -28,3 +32,4 @@ resource_pools:
           drs_rules:
           - name: separate-hadoop-datanodes-rule
             type: separate_vms
+```
