@@ -12,7 +12,7 @@
           type: separate_vms
   env:
     bosh:
-      password: $6$4gDD3aV0rdqlrKC$2axHCxGKIObs6tAmMTqYCspcdvQXh3JJcvWOY2WGb4SrdXtnCyNaWlrf3WEqvYR2MYizEGp3kMmbpwBC6jsHt0
+      password: REDACTED
   name: runner_z2
   network: cf2
   stemcell:
